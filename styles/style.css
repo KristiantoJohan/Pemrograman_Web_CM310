@@ -1,0 +1,59 @@
+body {
+    font-family: Arial;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: red;
+    font-size: 15pt;
+    color: white;
+    text-align: center;
+    padding: 1pt;
+    height: 10vh;
+    
+}
+
+ulstyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.navbar li {
+    display: inline;
+}
+
+div.navbar a {
+    font-family: Arial;
+    margin-left: 40pt;
+    text-decoration: none;
+    color: white;
+}
+
+div.container a {
+    font-family: Arial;
+    font-size: 10pt;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    text-align: center;
+    padding-top: 115pt;
+    padding-bottom: 115pt;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    background-color: red;
+    left: 0;
+    bottom: 0;
+    font-size: 15pt;
+    color: black;
+    text-align: center;
+    padding: 1pt;
+}
